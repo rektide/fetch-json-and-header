@@ -1,6 +1,6 @@
 {
 	"name": "fetch-json-and-header",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "Fetch's .json() that additionally grafts on a (non-enumerable) .headers",
 	"main": "fetch-json-and-header.js",
 	"scripts": {
@@ -12,5 +12,8 @@
 	},
 	"keywords": [],
 	"author": "rektide de la faye <rektide@voodoowarez.com>",
-	"license": "X11"
+	"license": "X11",
+	"dependencies": {
+		"parse-link-header": "^1.0.1"
+	}
 }
